@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* font-style: normal;
+  font-weight: 500; */
+}
+
+.body{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.header {
+  width: 1257px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0 20px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+.main-logo {
+  cursor: pointer;
+  width: 156px;
+  height: 36px;
+  margin-left: 40px;
+  margin-top: -10px;
+  /* margin-bottom: 15px; */
+}
+
+.search-input {
+  border: none;
+  width: 1257px;
+  background-color: none;
+  background: none;
+  font-size: 80%;
+  outline: none;
+}
+
+.search-img {
+  margin-right: 5px;
+}
+.search-bar {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  padding: 13px;
+  border: 1px solid #858585;
+  border-radius: 4px;
+  width: 600px;
+  /* padding-left: 20px; */
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.header-contents {
+  color: #353543;
+  padding: 0px;
+  display: flex;
+  height: auto;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 80px;
+}
+
+.supplier {
+  width: 60px;
+  margin: 20px;
+}
+
+.line {
+  cursor: none;
+  width: 1px;
+  height: 40px;
+  background-color: #cecede;
+}
+
+.investor {
+  width: 70px;
+  margin: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  margin: 20px;
+  position: relative;
+  right: -25px;
+}
+.profile-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.cart {
+  width: 50px;
+  right: -49px;
+  position: relative;
+}
+.cart-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.faltu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hori-line {
+  width: 1257px;
+  height: 1px;
+  background-color: #cecede;
+  position: sticky;
+  top: 72px;
+  z-index: 3;
+}
+.hori-line-2{
+  width: 1257px;
+  height: 1px;
+ background-color: #cecede;
+  position: sticky;
+  z-index: 5;
+  top: 123px;
+}
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  height: 348px;
+  width: 1257px;
+  position: relative;
+}
+
+.f-t {
+  position: absolute;
+  letter-spacing: -1px;
+  top: 40%;
+  right: 100px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  height: 44px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.s-t {
+  position: absolute;
+  letter-spacing: -1px;
+  top: 50%;
+  height: 44px;
+  right: 38px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.shop-now-btn {
+  position: absolute;
+  top: 62%;
+  right: 17%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #580a46;
+  padding: 17px 29px 17px;
+  border-radius: 9px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  border: none;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-features {
+  margin-top: -4px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  width: 1257px;
+  height: 11vh;
+  background-color: rgb(253, 238, 250);
+}
+.features {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  gap: 30px;
+  height: 8vh;
+  background-color: white;
+  border: 1px solid rgb(255, 171, 237);
+}
+
+.features-img {
+  width: 20px;
+  height: 20px;
+}
+
+.pink-line {
+  width: 1px;
+  height: 20px;
+  background-color: rgb(255, 225, 230);
+}
+
+.return,
+.cod,
+.lowprice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.photos {
+  display: flex;
+  position: absolute;
+  margin-top: 5%;
+  gap: 20px;
+  /* justify-content: space-around;
+  align-items: center;
+  margin-left: 6%;
+  width: 50%; */
+}
+
+.imgs {
+  color: #666677;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 550;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.imgs:hover {
+  transform: translateY(-5px);
+}
+
+.advertisment {
+  margin-top: 22%;
+  height: 513px;
+}
+
+.marketing {
+  object-fit: contain;
+  width: 1256px;
+}
+
+.brand-section {
+  margin: 5%;
+  font-weight: 200;
+  font-family: sans-serif;
+  display: flex;
+}
+
+.Original-brands {
+  font-size: 36px;
+}
+
+.brand-section-header {
+  display: flex;
+  gap: 8px;
+}
+
+.view-all {
+  position: absolute;
+  right: 10%;
+  font-size: 24px;
+  color: #9f2089;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+.main-brand-section {
+  position: absolute;
+  width: 1257px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-top: 15%;
+  gap: 91.9%;
+}
+.image-slider-container {
+  position: absolute;
+  margin-top: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto;
+  width: 90%;
+}
+
+.image-slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  gap: 20px;
+}
+
+.image-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.prev-btn,
+.next-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.btn {
+  position: relative;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: 0;
+  margin-left: -35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.btn:hover {
+  background-color: #f5f5f5;
+  
+}
+
+
+.pop-brand-wrapper{
+  background-color: rgb(240, 233, 255);
+  margin-top: 31%;
+  padding: 26px 0px;
+  display: flex;
+ gap: 24px;
+ align-items: center;
+ overflow: hidden;
+}
+
+.pop-brand-icons{
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ animation: scroll 25s linear infinite;
+ cursor: pointer;
+
+}
+
+.pop-brand-wrapper:hover .pop-brand-icons{
+    animation-play-state: paused;
+   
+}
+
+.pop-brand-img{
+   object-fit: contain;
+  height: 90%;
+  width: 90%;
+}
+
+
+@keyframes scroll {
+  /* 0% {
+    transform: translateX(0);
+  } */
+  50% {
+    transform: translateX(-500%);
+  }
+  100% {
+    transform: translateX(-1000%);
+  }
+}
+
+.awda{
+  z-index: -1000;
+}
+.main-banner-img{
+  position: relative;
+}
+.main-banner-img img{
+  width: 1257px;
+  height: 364px;
+  position: relative;
+}
+.banner-contents{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    width: 70%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 30px;
+}
+.banner-contents img{
+  height: 200px;
+  width: 140px;
+      text-decoration: none;
+    color: inherit;
+    display: block;
+
+}
+
+.shop-now-trendz{
+    padding: 15px 25px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    color: rgb(88, 10, 70);
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    position: absolute;
+    bottom: 23%;
+    left: 4%;
+}
+.shop-now-trendz:hover{
+transform: translateY(-2px);
+transition: all 0.1s ease-in;
+
+}
+.tags-trendz{
+  width: 100%;
+    color: rgb(88, 10, 70);
+    padding: 4px 3px 6px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: 1px solid rgb(255, 157, 0);
+    background: rgb(255, 245, 229);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.banner-contents div:hover{
+transform: translateY(-5px);
+transition: all 0.1s ease-in;
+}

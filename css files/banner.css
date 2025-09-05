@@ -1,0 +1,54 @@
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  height: 348px;
+  width: 1257px;
+  position: relative;
+}
+
+.f-t {
+  position: absolute;
+  letter-spacing: -1px;
+  top: 40%;
+  right: 100px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  height: 44px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.s-t {
+  position: absolute;
+  letter-spacing: -1px;
+  top: 50%;
+  height: 44px;
+  right: 38px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.shop-now-btn {
+  position: absolute;
+  top: 62%;
+  right: 17%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #580a46;
+  padding: 17px 29px 17px;
+  border-radius: 9px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  border: none;
+}

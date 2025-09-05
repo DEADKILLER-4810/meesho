@@ -1,0 +1,17 @@
+
+.advertisment {
+  margin-top: 22%;
+  height: 513px;
+}
+
+.marketing {
+  object-fit: contain;
+  width: 1256px;
+}
+
+.brand-section {
+  margin: 5%;
+  font-weight: 200;
+  font-family: sans-serif;
+  display: flex;
+}

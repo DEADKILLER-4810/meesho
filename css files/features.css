@@ -1,0 +1,76 @@
+
+
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-features {
+  margin-top: -4px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  width: 1257px;
+  height: 11vh;
+  background-color: rgb(253, 238, 250);
+}
+.features {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  gap: 30px;
+  height: 8vh;
+  background-color: white;
+  border: 1px solid rgb(255, 171, 237);
+}
+
+.features-img {
+  width: 20px;
+  height: 20px;
+}
+
+.pink-line {
+  width: 1px;
+  height: 20px;
+  background-color: rgb(255, 225, 230);
+}
+
+.return,
+.cod,
+.lowprice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.photos {
+  display: flex;
+  position: absolute;
+  margin-top: 5%;
+  gap: 20px;
+  /* justify-content: space-around;
+  align-items: center;
+  margin-left: 6%;
+  width: 50%; */
+}
+
+.imgs {
+  color: #666677;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 550;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.imgs:hover {
+  transform: translateY(-5px);
+}

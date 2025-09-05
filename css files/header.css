@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* font-style: normal;
+  font-weight: 500; */
+}
+
+.body{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.header {
+  width: 1257px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0 20px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+.main-logo {
+  cursor: pointer;
+  width: 156px;
+  height: 36px;
+  margin-left: 40px;
+  margin-top: -10px;
+  /* margin-bottom: 15px; */
+}
+
+.search-input {
+  border: none;
+  width: 1257px;
+  background-color: none;
+  background: none;
+  font-size: 80%;
+  outline: none;
+}
+
+.search-img {
+  margin-right: 5px;
+}
+.search-bar {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  padding: 13px;
+  border: 1px solid #858585;
+  border-radius: 4px;
+  width: 600px;
+  /* padding-left: 20px; */
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.header-contents {
+  color: #353543;
+  padding: 0px;
+  display: flex;
+  height: auto;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 80px;
+}
+
+.supplier {
+  width: 60px;
+  margin: 20px;
+}
+
+.line {
+  cursor: none;
+  width: 1px;
+  height: 40px;
+  background-color: #cecede;
+}
+
+.investor {
+  width: 70px;
+  margin: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  margin: 20px;
+  position: relative;
+  right: -25px;
+}
+.profile-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.cart {
+  width: 50px;
+  right: -49px;
+  position: relative;
+}
+.cart-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.faltu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hori-line {
+  width: 1257px;
+  height: 1px;
+  background-color: #cecede;
+  position: sticky;
+  top: 72px;
+  z-index: 3;
+}
+.hori-line-2{
+  width: 1257px;
+  height: 1px;
+ background-color: #cecede;
+  position: sticky;
+  z-index: 5;
+  top: 123px;
+}

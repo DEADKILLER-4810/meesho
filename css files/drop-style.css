@@ -1,0 +1,200 @@
+.category{
+  /* position: relative;   */
+  cursor: pointer;
+  color:#353543;
+  height: 52px;
+  font-weight: 500;
+  display: flex;
+  font-size: 15px;
+  /* width: 100%; */
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.31px;
+ 
+  
+}
+
+.category:hover{
+  color: rgb(159, 32, 137);
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+    text-underline-offset: 15px; 
+    /* transition: all 0.2s ease-in-out; */
+}
+
+.drop-down-box{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0; 
+    display: flex;
+    left: 2.5%;
+    /* top: 23.5%; */
+    top: 52px;
+    width: 95%;
+    height: auto;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+}
+.category:hover .drop-down-box{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.white-1 , .white-2 , .white-3 , .white-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+
+}
+.white9-1 , .white9-2 , .white9-3 , .white9-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+
+}
+.white10-1 , .white10-2 , .white10-3 , .white10-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+
+}
+.white5-1 , .white5-2 , .white5-3 , .white5-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+}
+
+.white6-1 , .white6-2 , .white6-3 , .white6-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+}
+
+.white7-1 , .white7-2 , .white7-3 , .white7-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+}
+
+.white8-1 , .white8-2 , .white8-3 , .white8-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+}
+.white4-1 , .white4-2 , .white4-3 , .white4-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+
+}
+.white3-1 , .white3-2 , .white3-3 , .white3-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+
+}
+.white2-1 , .white2-2 , .white2-3 , .white2-4{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    /* width: 13%; */
+
+}
+
+.grey-1 , .grey-2 , .grey-3{
+     background-color: rgb(248, 248, 255);;
+    /* width: 13%; */
+    border-radius: 5px;
+
+}
+.grey9-1 , .grey9-2 , .grey9-3{
+    background-color: rgb(248, 248, 255);
+    /* width: 13%; */
+    border-radius: 5px;
+}
+.grey8-1 , .grey8-2 , .grey8-3{
+    background-color: rgb(248, 248, 255);
+    /* width: 13%; */
+    border-radius: 5px;
+}
+
+.grey10-1 , .grey10-2 , .grey10-3{
+    background-color: rgb(248, 248, 255);
+    /* width: 13%; */
+    border-radius: 5px;
+}
+.grey5-1 , .grey5-2 , .grey5-3{
+    background-color: rgb(248, 248, 255);
+    /* width: 13%; */
+    border-radius: 5px;
+}
+
+.grey6-1 , .grey6-2 , .grey6-3{
+    background-color: rgb(248, 248, 255);
+    /* width: 13%; */
+    border-radius: 5px;
+}
+
+.grey7-1 , .grey7-2 , .grey7-3{
+    background-color: rgb(248, 248, 255);
+    /* width: 13%; */
+    border-radius: 5px;
+}
+.grey4-1 , .grey4-2 , .grey4-3{
+     background-color: rgb(248, 248, 255);;
+    /* width: 13%; */
+    border-radius: 5px;
+
+}
+.grey3-1 , .grey3-2 , .grey3-3{
+     background-color: rgb(248, 248, 255);;
+    /* width: 13%; */
+    border-radius: 5px;
+
+}
+.grey2-1 , .grey2-2 , .grey2-3{
+     background-color: rgb(248, 248, 255);;
+    /* width: 13%; */
+    border-radius: 5px;
+
+}
+
+p{
+    position: relative;
+    left: 5px;
+    padding: 7px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(97, 97, 115);
+    font-weight: 500;
+}
+
+p:hover{
+    color: rgb(47, 46, 46);
+}
+
+.main-category {
+background-color: none;
+background: none;
+border: none;
+outline: none;
+color: rgb(159, 32, 137);
+ font-size: 16px;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 7px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 20px;
+} 
+.category-container{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-left: 50px;
+   position: sticky;
+  top: 72px;
+  background-color: white;
+  z-index: 1; 
+}

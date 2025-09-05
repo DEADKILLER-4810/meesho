@@ -1,0 +1,64 @@
+.product-list-container{
+   padding-top: 40px;
+}
+
+.products-for-you{
+     margin: 0px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+    color: #353543;
+    padding: 15px;
+    padding-bottom: 28px;
+}
+
+.product-categories{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.relevance{
+    border: 1px solid #353543;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #8b8b8b;
+    padding: 8px 35px;
+    border-radius: 5px;
+    width: 290px;
+    height: 41px;
+}
+
+
+.txt-h3{
+    color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.txt-h5{
+    color: rgb(139, 139, 163);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+   font-family: "Montserrat", sans-serif;
+    margin: 0px 24px 16px;
+    padding: 0px;
+}
+
+.categories-container{
+    
+}
